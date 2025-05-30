@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/CSharpAssignment1.props" />
+</Project>
