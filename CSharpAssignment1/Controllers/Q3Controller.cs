@@ -1,22 +1,23 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace CSharpAssignment1.Controllers;
-
-[Route("api/q3")]
-[ApiController]
-
-public class Q3Controller : ControllerBase
+namespace CSharpAssignment1.Controllers
 {
-    /// <summary>
-    /// This method returns the cube of given integers
-    /// </summary>
-    /// <param name="value">The value to cube</param>
-    /// <returns>The cube of input</returns>
-    /// <example>GET /api/q3/cube/4</exapmple>
-    [HttpGet(template: "cube/{value}")]
-    public int GetCube(int value)
+    [ApiController]
+    [Route("api/q3")]
+    public class Q3Controller : ControllerBase
     {
-        int cubeValue = value * value * value;
-        return cubeValue;
+        /// <summary>
+        /// This method calculates the cube of the number in the URL.
+        /// </summary>
+        /// <param name="baseValue">The number to cube</param>
+        /// <returns>The cube of the number</returns>
+        /// <example>GET /api/q3/cube/4 -> 64</example>
+        /// <example>GET /api/q3/cube/-4 -> -64</example>
+        /// <example>GET /api/q3/cube/10 -> 100</example>
+        [HttpGet("cube/{baseValue}")]
+        public int GetCube(int baseValue)
+        {
+            return baseValue * baseValue * baseValue;
+        }
     }
 }

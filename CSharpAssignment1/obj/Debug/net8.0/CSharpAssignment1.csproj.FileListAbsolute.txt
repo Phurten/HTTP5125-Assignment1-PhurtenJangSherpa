@@ -30,3 +30,4 @@
 /Users/phur10/Desktop/HTTP-5125 Back End/assignments/HTTP5125-Assignment1-PhurtenJangSherpa/CSharpAssignment1/obj/Debug/net8.0/CSharpAssignment1.pdb
 /Users/phur10/Desktop/HTTP-5125 Back End/assignments/HTTP5125-Assignment1-PhurtenJangSherpa/CSharpAssignment1/obj/Debug/net8.0/CSharpAssignment1.genruntimeconfig.cache
 /Users/phur10/Desktop/HTTP-5125 Back End/assignments/HTTP5125-Assignment1-PhurtenJangSherpa/CSharpAssignment1/obj/Debug/net8.0/ref/CSharpAssignment1.dll
+/Users/phur10/Desktop/HTTP-5125 Back End/assignments/HTTP5125-Assignment1-PhurtenJangSherpa/CSharpAssignment1/obj/Debug/net8.0/CSharpAssignment1.sourcelink.json
